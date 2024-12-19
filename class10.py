@@ -33,7 +33,7 @@ class Store:
 
 
 def main():
-    # Criando alguns produtos
+
     p1 = Product("Notebook")
     p1.price = 3000
     p1.stock = 10
@@ -46,25 +46,25 @@ def main():
     p3.price = 150
     p3.stock = 50
 
-    # Criando a loja
+
     store = Store()
 
-    # Adicionando produtos à loja
+
     store.add_product(p1)
     store.add_product(p2)
     store.add_product(p3)
 
-    # Listando os produtos disponíveis
+
     store.list_products()
 
-    # Comprando produtos
-    p1.buy(3)  # Compra 3 notebooks
-    p2.buy(150)  # Estoque insuficiente
+  
+    p1.buy(3)  
+    p2.buy(150) 
 
-    # Reabastecendo produtos
+   
     p2.restock(50)
 
-    # Listando os produtos novamente
+
     store.list_products()
 
 
