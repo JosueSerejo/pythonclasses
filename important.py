@@ -32,4 +32,4 @@ list.reverse()
 #Inverte a ordem dos elementos na lista.
 
 list.copy()
-#Devolve uma cópia rasa da lista. Similar a a[:]
+#Devolve uma cópia rasa da lista. Similar a a[:].
